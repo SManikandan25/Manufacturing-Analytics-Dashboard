@@ -1,4 +1,4 @@
-# SMK Manufacturing Analytics Dashboard
+# Manufacturing Analytics Dashboard
 ### End-to-End Manufacturing Analytics Solution | Snowflake | SQL | Power BI | DAX | Dynamic RLS
 
 ## 📌 Project Overview
