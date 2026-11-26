@@ -3,7 +3,7 @@
 
 ## 📌 Project Overview
 
-The **SMK Manufacturing Analytics Dashboard** is an end-to-end Business Intelligence portfolio project designed to analyze manufacturing operations across multiple plants.
+The **Manufacturing Analytics Dashboard** is an end-to-end Business Intelligence portfolio project designed to analyze manufacturing operations across multiple plants.
 
 The project uses Snowflake as the data warehouse and Power BI to develop interactive dashboards that monitor production performance, product quality, machine downtime, and maintenance costs.
 
