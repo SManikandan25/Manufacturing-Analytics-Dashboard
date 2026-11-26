@@ -49,8 +49,7 @@ The project follows this end-to-end architecture:
 
 **Manufacturing Source Data → Snowflake Database → Fact & Dimension Tables → Star Schema Data Model → Power BI Dataset → Interactive Dashboards → Business Users**
 
-![SMK Manufacturing Solution Architecture](Manufacturing-Analytics-Dashboard
-/images/Solution%20Architecture.png)
+![SMK Manufacturing Solution Architecture](Images/Solution%20Architecture.png)
 
 ## 🗄️ Data Model
 
@@ -76,7 +75,7 @@ The analytical model follows a **Star Schema** structure using fact and dimensio
 
 The model supports filtering and analysis across manufacturing plants, production lines, machines, products, and dates.
 
-![SMK Manufacturing Data Model](Data%20model.png)
+![SMK Manufacturing Data Model](Images/Data%20model.png)
 
 ## 📊 Power BI Dashboard Pages
 
@@ -84,31 +83,31 @@ The model supports filtering and analysis across manufacturing plants, productio
 
 Provides a consolidated view of key manufacturing KPIs, including production achievement, defect rate, maintenance cost, and downtime hours.
 
-![Executive Overview](1.Executive%20Overview.png)
+![Executive Overview](Images/Dashboard-Screenshots/1.Executive%20Overview.png)
 
 ### 2. Production Performance
 
 Analyzes planned versus actual production, production variance, achievement percentage, plant performance, and current-year versus previous-year trends.
 
-![Production Performance](2.Production%20Performance.png)
+![Production Performance](Images/Dashboard-Screenshots/2.Production%20Performance.png)
 
 ### 3. Quality Analytics
 
 Monitors total inspections, pass rate, defect rate, defect quantity, and defect patterns across manufacturing plants.
 
-![Quality Analytics](3.Quality%20Analytics.png)
+![Quality Analytics](Images/Dashboard-Screenshots/3.Quality%20Analytics.png)
 
 ### 4. Downtime & Maintenance Analytics
 
 Analyzes downtime hours, downtime events, maintenance costs, and maintenance performance across plants and machine types.
 
-![Downtime and Maintenance Analytics](4.Downtime%20%26%20Maintenance%20Analytics.png)
+![Downtime and Maintenance Analytics](Images/Dashboard-Screenshots/4.Downtime%20%26%20Maintenance%20Analytics.png)
 
 ### 5. Machine Analysis
 
 Compares machine-level production, downtime, and maintenance costs to help identify performance leaders and areas requiring further investigation.
 
-![Machine Analysis](5.Machine%20Analysis.png)
+![Machine Analysis](Images/Dashboard-Screenshots/5.Machine%20Analysis.png)
 
 ## 📈 Key Business Insights
 
@@ -145,7 +144,7 @@ Dynamic RLS is implemented using `USERPRINCIPALNAME()` and the `DIM_USER_ACCESS`
 
 User Login → `USERPRINCIPALNAME()` → `DIM_USER_ACCESS` → Role Validation → Plant / Region Filtering → Dashboard Access
 
-![SMK Manufacturing Security Flow](Dynamic%20RLS%20Security%20Flow.png)
+![SMK Manufacturing Security Flow](Images/Dynamic%20RLS%20Security%20Flow.png)
 
 The role logic has been tested in Power BI Desktop. Power BI Service role assignment and access require separate validation before production use.
 
