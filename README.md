@@ -49,7 +49,8 @@ The project follows this end-to-end architecture:
 
 **Manufacturing Source Data → Snowflake Database → Fact & Dimension Tables → Star Schema Data Model → Power BI Dataset → Interactive Dashboards → Business Users**
 
-![SMK Manufacturing Solution Architecture](Solution%20Architecture.png)
+![SMK Manufacturing Solution Architecture](Manufacturing-Analytics-Dashboard
+/images/Solution%20Architecture.png)
 
 ## 🗄️ Data Model
 
