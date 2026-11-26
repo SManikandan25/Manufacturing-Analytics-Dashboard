@@ -151,7 +151,7 @@ The role logic has been tested in Power BI Desktop. Power BI Service role assign
 ## 📂 Repository Structure
 
 ```text
-SMK-Manufacturing-Analytics-Dashboard/
+Manufacturing-Analytics-Dashboard/
 │
 ├── README.md
 │
